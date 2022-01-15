@@ -1,0 +1,23 @@
+
+body {background-color: grey; 
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bouy {
+    text-align: center;
+    style=50px 50px 50px 50px
+   
+}
+h1 {
+    text-align: center;
+}
+
+
+.bouy1 { font-family: cursive ;
+    color:goldenrod;
+    font-size: 29px;
+
+}
