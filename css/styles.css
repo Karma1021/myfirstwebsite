@@ -1,6 +1,12 @@
 
-body {background-color: grey; 
+body {
+    text-align: center;
+	font: italic normal 3em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
 }
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -11,8 +17,7 @@ ul {
     style=50px 50px 50px 50px
    
 }
-h1 {
-    text-align: center;
+
 }
 
 
@@ -21,3 +26,4 @@ h1 {
     font-size: 29px;
 
 }
+
