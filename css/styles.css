@@ -21,7 +21,7 @@ ul {
 }
 
 
-.bouy1 { font-family: cursive ;
+.bouy1 { font-style: times;
     color:goldenrod;
     font-size: 29px;
 
@@ -33,3 +33,5 @@ a:visited {
    a.bs:hover, a.bs:active {font-family: monospace;}
    a.cf:hover, a.cf:active {color: green;}
    a.cf:hover, a.cf:active {font-family: monospace;}
+
+ 

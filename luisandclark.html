@@ -5,17 +5,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Portfolio</title>
-    <link ref="stylesheet"  href=css/test.css/>
-<style>
- 
-   body{
-background-color: rgb(220, 245, 245);
+    <link type="stylesheet" href="css/styles.css">
+<style type="text/css">
+
+  
+body{
+background-color: rgb(253, 253, 253);
 }
 /* nav bar itself */
 .topnav {
     overflow: hidden;
     background-color: #333;
-    margin-bottom: 25px;
+    margin-bottom: 95px;
    
   }
   /* left side of nav bar */
@@ -45,20 +46,20 @@ background-color: rgb(220, 245, 245);
   .row{
       display: flex;
       width: 95%;
-      background-color: rgba(245, 237, 215, 0.548);
+      background-color: rgba(127, 154, 161, 0.938);
       border-color: black;
-      border: width 60px;
+      border width: 90px;
       border-radius: 15px;
       overflow: hidden;
       margin-left: 50px;
       margin-right: 40px;
   }
-  .col-1, .col-2 {
+  .col-1{
       flex-basis: 50%;
       overflow: hidden;
   }
   /* tag for picture of text */
-  .col-1.img{
+  .col-1 .img{
       width: 100%;
       align-self: right;
       
@@ -67,9 +68,8 @@ background-color: rgb(220, 245, 245);
   .col-1{
       padding-left: 25px;
       text-align: center;
-      border-top: 50px;
-  }
-  .col-1{
+      border-top: 50px; 
+  
     margin-left: 50px;
     border: black;
     margin-top: 25px;
@@ -83,8 +83,8 @@ background-color: rgb(220, 245, 245);
     color: #333;
   }
   /* description of L and C */
-  .col-1.h2{
-    color: #777;
+  .col-1 h2{
+    color: rgb(0, 0, 0);
     line-height:{22px;
     margin: 15px 0 30px;
     font-size: 60px;
@@ -95,11 +95,9 @@ background-color: rgb(220, 245, 245);
   border-radius: 30%;
   }
   
- ul{
-Padding: -25px;
+ ul button .btn1{
+margin-right: auto;
  }
- 
-
 </style>
 </head>
 
@@ -131,22 +129,22 @@ Padding: -25px;
          <h1>The Luis and Clark Instruments</h1>
           <h2>These instruments are made by <br> vaccum bagging carbon fiber in a mold</h2>
           <button class="btn" type="button">Explore</button><br>
-         <div style="text-align: center;"> 
+         <div style="text-align:  match-parent>
            <ul class="btn1">
-         <button> <span class="btn"></span></button>
-         <button> <span class="btn1"></span></button>
-          <button><span class="btn2"></span></button>
+         <button class="btn1"></button>
+         <button class="btn2"></button>
+          <button class="btn3"></button>
            </ul>
           </div>
         </div>
       <div>
             <img src="images/Luis-Clark-Instruments.jpg"
             width="750"
-            height="700"
-            id=(banner);>
+            height="700">
+            
 
           </div>
-          
+         
             
             
         </div>
@@ -154,28 +152,8 @@ Padding: -25px;
       </div>
 
     </div>
-    <script>
-      var btn =document.getElementsByClassName("btn");
-      var banner=document.getelementbyid(banner);
 
-      btn{0}.onclick=function(){
-
-      }
-        banner.src="images/Luis-Clark-Instruments.jpg";
-
-btn{1}.onclick=function(){
-
-      }
-        banner.src="https://clearcarbon.com/portfolio-items/underwater-communications-enclosure/";
-
-        btn{2}.onclick=function(){
-
-}
-  banner.src="https://www.columbusmakesart.com/place/9373-brushstrokes-in-flight";
-
-      }
-
-    </script>
+    
 </body>
 
 </html>
